@@ -1,0 +1,19 @@
+{
+  "name": "coin-price",
+  "version": "1.0.0",
+  "description": "Displays the price of cryptocurrencies using CoinAPI.io",
+  "main": "server/index.js",
+  "repository": "https://github.com/FermiDirak/CoinPrice.git",
+  "author": "fermi_dirac <ManueleBryan@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "scripts": {
+    "start": "nodemon server/index.js"
+  }
+}
