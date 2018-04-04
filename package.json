@@ -1,13 +1,14 @@
 {
-  "name": "coin-price",
+  "name": "learn-serverless-node",
   "version": "1.0.0",
   "description": "Displays the price of cryptocurrencies using CoinAPI.io",
   "main": "server/index.js",
-  "repository": "https://github.com/FermiDirak/CoinPrice.git",
+  "repository": "https://github.com/FermiDirak/LearnServerlessNode.git",
   "author": "fermi_dirac <ManueleBryan@gmail.com>",
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.3"
   },
   "devDependencies": {
