@@ -4,7 +4,7 @@ const randomRoute = require('./random');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-  res.send('coinprice api online');
+  res.send('dice roll api is online');
 });
 
 router.use('/random', randomRoute);
