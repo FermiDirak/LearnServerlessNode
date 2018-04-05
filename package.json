@@ -15,6 +15,6 @@
     "nodemon": "^1.17.3"
   },
   "scripts": {
-    "start": "nodemon server/index.js"
+    "start": "cd client; yarn build; cd ..; nodemon server/index.js"
   }
 }
