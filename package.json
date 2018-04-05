@@ -12,9 +12,13 @@
     "express": "^4.16.3"
   },
   "devDependencies": {
+    "claudia": "^3.4.1",
     "nodemon": "^1.17.3"
   },
   "scripts": {
-    "start": "cd client; yarn build; cd ..; nodemon server/index.js"
+    "start": "cd client; yarn build; cd ..; nodemon server/index.js",
+    "claudia-setup": "claudia generate-serverless-express-proxy --express-module app",
+    "claudia-deploy": "claudia create --handler lambda.handler --deploy-proxy-api --region us-west-2",
+    "claudia-update": "claudia"
   }
 }
