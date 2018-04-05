@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "cd client; yarn build; cd ..; nodemon server/index.js",
-    "claudia-setup": "claudia generate-serverless-express-proxy --express-module app",
+    "claudia-setup": "claudia generate-serverless-express-proxy --express-module server/app",
     "claudia-deploy": "claudia create --handler lambda.handler --deploy-proxy-api --region us-west-2",
     "claudia-update": "claudia"
   }
