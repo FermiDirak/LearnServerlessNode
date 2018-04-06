@@ -1,7 +1,7 @@
 {
   "name": "learn-serverless-node",
   "version": "1.0.0",
-  "description": "Displays the price of cryptocurrencies using CoinAPI.io",
+  "description": "Learn to deploy using the serverless architecture",
   "main": "server/index.js",
   "repository": "https://github.com/FermiDirak/LearnServerlessNode.git",
   "author": "fermi_dirac <ManueleBryan@gmail.com>",
